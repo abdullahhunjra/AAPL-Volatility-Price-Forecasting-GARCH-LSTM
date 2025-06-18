@@ -34,8 +34,6 @@ This project explores **risk forecasting** and **price prediction** for Apple In
 | Tool / Model       | Purpose                                      |
 |--------------------|----------------------------------------------|
 | `arch` (GARCH-t)   | Volatility Forecasting                       |
-| `statsmodels`      | ADF Test, ACF/PACF plots                     |
-| `pmdarima`         | Auto ARIMA Order Selection                   |
 | `tensorflow.keras` | LSTM Neural Network Modeling                 |
 | `matplotlib`/`seaborn` | Clean Visualizations                      |
 | `yfinance`         | Data Sourcing                                |
@@ -62,9 +60,6 @@ We trained an LSTM model using:
 - Normalized price sequences
 - Forecast horizon of 30 days
 
-Feature Engineering:
-- Lagged returns
-- 14-day RSI (Relative Strength Index)
 
 📉 LSTM Evaluation Metrics:
 - **RMSE:** ~$3.92  
